@@ -4,6 +4,10 @@
 </p>
 
 <p align="center">
+  🔗 <b>Website: <a href="https://www.reportscout.app">www.reportscout.app</a></b> - browse company reports and get an email when a new one is published
+</p>
+
+<p align="center">
   <a href="https://github.com/OWNER/REPO/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/OWNER/REPO?style=flat&label=Stars"></a>
   <a href="https://github.com/OWNER/REPO/actions"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml?label=CI"></a>
   <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-informational">
@@ -26,6 +30,8 @@
 It uses [**ScaleSERP**](https://trajectdata.com/serp/scale-serp-api/) for discovery and [**OpenAI**](https://openai.com/api/) for text classification (relevance, report type, year), saving clean artifacts under `outputs/`.
 
 > **TL;DR**: Provide a CSV of companies → run one command → get a folder of vetted sustainability reports per company + CSV summaries.
+
+> **Prefer not to run it yourself?** [Report Scout](https://www.reportscout.app) is the hosted service that grew out of this project: look up a company's annual, sustainability and ESG reports, and get alerts when new ones come out.
 
 ---
 
